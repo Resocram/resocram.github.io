@@ -1,22 +1,21 @@
 
 
 
-$('#buttonABOUT').on('click',function goToByScroll(){
-    $('html,body').animate({scrollTop: $("#ABOUT").offset().top},'slow');
-    console.log("done")
+$('#buttonAbout').on('click',function goToByScroll(){
+    $('html,body').animate({scrollTop: $("#about").offset().top},'slow');
+})
+$('#buttonAboutMe').on('click',function goToByScroll(){
+    $('html,body').animate({scrollTop: $("#about").offset().top},'slow');
 })
 
-$('#buttonHOME').on('click',function goToByScroll(){
+$('#buttonHome').on('click',function goToByScroll(){
     $('html,body').animate({scrollTop: $("#HOME").offset().top},'slow');
-    console.log("done")
 })
 
-$('#buttonPORTFOLIO').on('click',function goToByScroll(){
-    $('html,body').animate({scrollTop: $("#PORTFOLIO").offset().top},'slow');
-    console.log("done")
+$('#buttonPortfolio').on('click',function goToByScroll(){
+    $('html,body').animate({scrollTop: $("#portfolio").offset().top},'slow');
 })
 
-$('#buttonCONTACT').on('click',function goToByScroll(){
-    $('html,body').animate({scrollTop: $("#CONTACT").offset().top},'slow');
-    console.log("done")
+$('#buttonContact').on('click',function goToByScroll(){
+    $('html,body').animate({scrollTop: $("#contact").offset().top},'slow');
 })

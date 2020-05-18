@@ -2,7 +2,7 @@
     border: 1px solid green;
 }
 
-.my_row {
+.arow{
     border: 3px solid red;
 }
 
@@ -15,9 +15,7 @@
     padding: 0;
     margin: 0;
 }
-.container-fluid{
-    padding:2.5%;
-}
+
 
 .jumbotron h1{
     color:white;
@@ -37,4 +35,55 @@
 {
     background-color:white;
     color: #232323
+}
+
+li{
+    cursor: pointer;
+}
+
+.nav-item{
+    color:white;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 1.15em;
+}
+.navbar-nav{
+
+    padding-left: 18%
+    
+}
+.navbar{
+
+    padding : 0;
+    background-color: #242629;
+    border-bottom : 4px solid #00a1a7;
+
+}
+
+.custom-toggler.navbar-toggler { 
+    border-color: white; 
+} 
+
+.custom-toggler .navbar-toggler-icon { 
+    background-image: url("./src/hamburger-white.png"); 
+} 
+
+.anchor{
+    display:block;
+    position:relative;
+    top: -50px;
+    visibility: hidden;
+}
+
+#personal-photo{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+
+.categories{
+    height:100vh;
 }
