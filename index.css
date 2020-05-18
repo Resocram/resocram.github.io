@@ -1,0 +1,40 @@
+.my_container {
+    border: 1px solid green;
+}
+
+.my_row {
+    border: 3px solid red;
+}
+
+.my_col {
+    border: 3px dotted blue;
+}
+
+.jumbotron{
+    height:100vh;
+    padding: 0;
+    margin: 0;
+}
+.container-fluid{
+    padding:2.5%;
+}
+
+.jumbotron h1{
+    color:white;
+}
+.jumbotron p{
+    color:white;
+}
+
+.btn-dark,
+.btn-dark:focus,
+.btn-dark:active{
+    background-color: #232323;
+    border: 1px solid white;
+    color: white;
+}
+.btn-dark:hover
+{
+    background-color:white;
+    color: #232323
+}
