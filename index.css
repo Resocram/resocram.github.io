@@ -10,6 +10,11 @@
     border: 3px dotted blue;
 }
 
+body{
+    background: #f1f1f1;
+    /* font-family: 'intro'; */
+}
+
 .jumbotron{
     height:100vh;
     padding: 0;
@@ -86,4 +91,35 @@ li{
 
 .categories{
     height:100vh;
+}
+
+.wrapper{
+padding: 0;
+}
+
+.image{
+    display:block;
+    width: 100%;
+    height:100%;
+    padding:0;
+    margin: 0;
+}
+.overlayTop{
+    position:absolute;
+    transition: all 0.3s ease;
+    opacity: 0;
+    background-color:white;
+    width:100%;
+    height: 0;
+    top:0;
+    left:0;
+}
+
+.wrapper:hover .overlayTop{
+    height:100%;
+    opacity:1;
+}
+
+.favicon{
+    top: 100%;
 }

@@ -19,3 +19,4 @@ $('#buttonPortfolio').on('click',function goToByScroll(){
 $('#buttonContact').on('click',function goToByScroll(){
     $('html,body').animate({scrollTop: $("#contact").offset().top},'slow');
 })
+
