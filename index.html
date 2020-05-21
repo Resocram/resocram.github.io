@@ -421,7 +421,7 @@
         </p>
 
       </div>
-            <div class="col-3" style="padding:0;">
+      <div class="col-3" style="padding:0;">
         <p class="lead" style="color:#f1f1f1; margin-bottom: 0;">J.A.R.V.I.S is a line-following robot I made
           with my design team that has several add-on features such as a LED screen, camera, and an accompanying
           iPad app that can control the robot remotely.</p>
@@ -451,15 +451,87 @@
     </div>
   </div>
   <a class="anchor" id="contact"></a>
-  <div class="container-fluid categories">
+  <div class="container-fluid" style="height:95vh;">
     <div class="row justify-content-center">
       <div class="col-0 align-self-center">
-        <h1 style="margin-top: 10%; margin-bottom: 10%;">Contact Me</h1>
+        <h1 style="margin-top: 15%; margin-bottom: 10%;">Contact Me</h1>
       </div>
     </div>
-                  
+    <div class="row justify-content-center">
+      <div class="col-0 align-self-center">
+        <p class="lead">Have any questions or want to get in touch?</p>
+      </div>
+
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-0">
+        <div id="error_message"></div>
+      </div>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <form id="contact-form" name="contact-form" action="https://formspree.io/mqkyejez" method="POST">
+          <div class="row justify-content-center">
+            <div class="col-md-6 mb-3">
+              <div class="md-form">
+                <input type="text" name="name" id="name" class="form-control" placeholder="Name">
+              </div>
+            </div>
+          </div>
+
+          <div class="row justify-content-center">
+
+            <div class="col-md-6 mb-3">
+              <div class="md-form">
+                <input type="text" name="_replyto" id="email" class="form-control" placeholder="Email">
+              </div>
+            </div>
+          </div>
 
 
+
+          <div class="row justify-content-center">
+
+
+            <div class="col-md-6 mb-3">
+
+              <div class="md-form">
+                <textarea type="text" name="message" id="message" rows="3" class="form-control md-textarea"
+                  placeholder="Message"></textarea>
+              </div>
+
+            </div>
+          </div>
+          <div class="row justify-content-start">
+            <div class = "col-md-6 offset-3 mb-3">
+              <a class="btn btn-light" onclick="return validation()">Send</a>
+            </div>
+            <div class = "col-md-6 offset-3">
+              <a href="https://www.linkedin.com/in/marcoser/">
+              <img src = "src/linkedin.png" class = "bottom-image" alt = "LinkedIn">
+              </a>
+              <a href="https://www.github.com/Resocram">
+              <img src = "src/github.png" class = " bottom-image" alt = "Github">
+              </a>
+            </div>
+        </div>
+
+
+        </form>
+      </div>
+
+      
+
+    
+    </div>
+
+
+
+
+
+  </div>
+  </div>
 
 
 

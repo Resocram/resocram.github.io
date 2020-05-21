@@ -42,6 +42,23 @@ body{
     color: #232323
 }
 
+.btn-light,
+.btn-light:focus,
+.btn-light:active{
+    background-color: white;
+    border: 1px solid #232323;
+    color: #232323;
+}
+.btn-light:hover
+{
+    background-color:#232323;
+    color: white !important;
+}
+
+
+
+
+
 li{
     cursor: pointer;
 }
@@ -81,6 +98,7 @@ li{
     top: -50px;
     visibility: hidden;
 }
+
 
 #personal-photo{
     height: 200px;
@@ -122,4 +140,39 @@ padding: 0;
 
 .favicon{
     padding-left:5%;
+}
+
+.input-field{
+    margin-bottom: 10%;
+
+}
+
+input[type=text] { 
+    background-color: #f1f1f1;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid black;
+    box-shadow: none;
+    outline: none !important;
+}
+
+input[type=text]:focus{
+    outline: none !important;
+    box-shadow: none;
+    background-color:#f1f1f1;
+}
+
+#message{
+    background-color: #f1f1f1;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid black;
+    box-shadow: none;
+    outline: none !important;
+}
+
+.bottom-image{
+    width: 50px;
+    align-self: flex-end;
+
 }
