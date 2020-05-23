@@ -12,8 +12,9 @@
 
 body{
     background: #f1f1f1;
-    /* font-family: 'intro'; */
 }
+
+
 
 .jumbotron{
 
@@ -109,8 +110,8 @@ li{
 
 
 .categories{
-    min-height:1000px;
-    height:100vh;
+    height:1000px;
+
 }
 
 .wrapper{
