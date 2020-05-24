@@ -20,6 +20,8 @@ $('#buttonContact').on('click',function goToByScroll(){
     $('html,body').animate({scrollTop: $("#contact").offset().top},'slow');
 })
 
+
+
 function validation(){
     let name = document.getElementById("name").value;
     let email = document.getElementById("email").value;
