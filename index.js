@@ -20,7 +20,18 @@ $('#buttonContact').on('click',function goToByScroll(){
     $('html,body').animate({scrollTop: $("#contact").offset().top},'slow');
 })
 
+window.onresize = function(event){
+    // let vh  = $(window).height();
+    // let hundred = $('.categories').css("height","100%");
+    // console.log("100vh is " + vh);
+    // console.log("100% is" + $('.cat-wrapper').height());
+    // if(vh>hundred){
+    //     $(".categories").height(vh);
+    // }else{
+    //     $(".categories").height(hundred);
+    // }
 
+}
 
 function validation(){
     let name = document.getElementById("name").value;
