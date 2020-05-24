@@ -2,10 +2,10 @@
 
 
 $('#buttonAbout').on('click',function goToByScroll(){
-    $('html,body').animate({scrollTop: $("#about").offset().top},'slow');
+    $('html,body').animate({scrollTop: $("#aboutNav").offset().top-$(".navbar").height()},'slow');
 })
 $('#buttonAboutMe').on('click',function goToByScroll(){
-    $('html,body').animate({scrollTop: $("#about").offset().top},'slow');
+    $('html,body').animate({scrollTop: $("#aboutNav").offset().top-$(".navbar").height()},'slow');
 })
 
 $('#buttonHome').on('click',function goToByScroll(){
@@ -13,15 +13,17 @@ $('#buttonHome').on('click',function goToByScroll(){
 })
 
 $('#buttonPortfolio').on('click',function goToByScroll(){
-    $('html,body').animate({scrollTop: $("#portfolio").offset().top},'slow');
+    $('html,body').animate({scrollTop: $("#portfolioNav").offset().top-$(".navbar").height()},'slow');
 })
 
 $('#buttonContact').on('click',function goToByScroll(){
-    $('html,body').animate({scrollTop: $("#contact").offset().top},'slow');
+    $('html,body').animate({scrollTop: $("#contactNav").offset().top-$(".navbar").height()},'slow');
 })
 
 $(".anchor").height($(".navbar").height());
-
+$(".navbar-nav>li>a").on("click",function(){
+    $('.navbar-collapse').collapse('hide');
+})
 window.onresize = function(event){
     $(".anchor").height($(".navbar").height());
 

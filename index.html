@@ -43,7 +43,7 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarMenu">
-      <ul class="navbar-nav " style = "position:relative;">
+      <ul class="navbar-nav ">
         <li class="nav-item">
           <a class="nav-link active" id="buttonHome">HOME</a>
         </li>
@@ -59,9 +59,7 @@
       </ul>
     </div>
   </nav>
-  <a class="anchor" id="about"></a>
-  <div class="cat-wrapper">
-    <div class="container-fluid categories">
+    <div class="container-fluid categories" id = "aboutNav">
       <div class="row justify-content-center">
         <div class="col-0 align-self-center">
           <h1 style="margin-top: 10%; margin-bottom: 10%;">About Me</h1>
@@ -103,325 +101,320 @@
 
     </div>
 
-  </div>
-  <a class="anchor" id="portfolio"></a>
-  <div class="cat-wrapper">
-    <div class="container-fluid categories" style="background-color: #232323;">
-      <div class="row justify-content-center">
-        <div class="col-0 align-self-center">
-          <h1 style="margin-top: 10%; margin-bottom: 10%; color:#f1f1f1">Portfolio</h1>
+  <div class="container-fluid categories" style="background-color: #232323;" id = "portfolioNav">
+    <div class="row justify-content-center">
+      <div class="col-0 align-self-center">
+        <h1 style="margin-top: 10%; margin-bottom: 10%; color:#f1f1f1">Portfolio</h1>
+      </div>
+    </div>
+
+    <div class="row mb-3">
+      <div class="col-lg-4 mb-3  col-md-6  col-xs-12 d-flex justify-content-center">
+        <div class="card">
+          <div class="wrapper">
+            <img class="card-img-top" src="src/firsthello.jpg" alt="First hello">
+            <div class=" fade-in container-fluid">
+              <div class="row justify-content-center">
+                <div class="col-0 align self-center">
+                  <div class='lead' id="made-with">Made with:</div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-3">
+                  <img src="./src/androidstudio.png" class="favicon">
+                </div>
+                <div class="col-9 align-self-center">
+                  <p class="lead ">Android Studio</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-3">
+                  <img src="./src/googlefirebase.png" class="favicon">
+                </div>
+                <div class="col-9 align-self-center">
+                  <p class="lead ">Google Firebase</p>
+                </div>
+
+              </div>
+              <div class="row">
+                <div class="col-3">
+                  <img src="./src/java.png" class="favicon">
+                </div>
+                <div class="col-9 align-self-center">
+                  <p class="lead">Java</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-3">
+                  <img src="./src/microsoftazure.png" class="favicon">
+                </div>
+                <div class="col-9 align-self-center">
+                  <p class="lead ">Microsoft Azure</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-3">
+                  <img src="./src/xml.png" class="favicon">
+                </div>
+                <div class="col-9 align-self-center">
+                  <p class="lead ">XML</p>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+
+          <div class="card-body">
+            <h5 class="card-title">first hello</h5>
+            <p class="card-text">first hello is an android app that aims to make
+              socializing and networking easier by
+              rendering other's information onto your screen in real time.</p>
+          </div>
         </div>
       </div>
 
-      <div class="row mb-3">
-        <div class="col-lg-4 mb-3  col-md-6  col-xs-12 d-flex justify-content-center">
-          <div class="card">
-            <div class="wrapper">
-              <img class="card-img-top" src="src/firsthello.jpg" alt="First hello">
-              <div class=" fade-in container-fluid">
-                <div class="row justify-content-center">
-                  <div class="col-0 align self-center">
-                    <div class='lead' id="made-with">Made with:</div>
-                  </div>
+      <div class="col-lg-4 mb-3  col-md-6 col-xs-12 d-flex justify-content-center ">
+        <div class="card">
+          <div class="wrapper">
+            <img class="card-img-top" src="src/personalportfolio.png" alt="Personal Website">
+            <div class="fade-in container-fluid">
+              <div class="row justify-content-center">
+                <div class="col-0 align self-center">
+                  <div class='lead' id="made-with">Made with:</div>
                 </div>
-                <div class="row">
-                  <div class="col-3">
-                    <img src="./src/androidstudio.png" class="favicon">
-                  </div>
-                  <div class="col-9 align-self-center">
-                    <p class="lead ">Android Studio</p>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-3">
-                    <img src="./src/googlefirebase.png" class="favicon">
-                  </div>
-                  <div class="col-9 align-self-center">
-                    <p class="lead ">Google Firebase</p>
-                  </div>
-
-                </div>
-                <div class="row">
-                  <div class="col-3">
-                    <img src="./src/java.png" class="favicon">
-                  </div>
-                  <div class="col-9 align-self-center">
-                    <p class="lead">Java</p>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-3">
-                    <img src="./src/microsoftazure.png" class="favicon">
-                  </div>
-                  <div class="col-9 align-self-center">
-                    <p class="lead ">Microsoft Azure</p>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-3">
-                    <img src="./src/xml.png" class="favicon">
-                  </div>
-                  <div class="col-9 align-self-center">
-                    <p class="lead ">XML</p>
-                  </div>
-                </div>
-
-
               </div>
-            </div>
+              <div class="row">
+                <div class="col-3">
+                  <img src="./src/bootstrap.png" class="favicon">
+                </div>
+                <div class="col-9 align-self-center">
+                  <p class="lead">Bootstrap</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-3">
+                  <img src="./src/css.png" class="favicon">
+                </div>
+                <div class="col-9 align-self-center">
+                  <p class="lead">CSS</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-3">
+                  <img src="./src/html.png" class="favicon">
+                </div>
+                <div class="col-9 align-self-center">
+                  <p class="lead">HTML</p>
+                </div>
+              </div>
 
-            <div class="card-body">
-              <h5 class="card-title">first hello</h5>
-              <p class="card-text">first hello is an android app that aims to make
-                socializing and networking easier by
-                rendering other's information onto your screen in real time.</p>
+              <div class="row">
+                <div class="col-3">
+                  <img src="./src/javascript.png" class="favicon">
+                </div>
+                <div class="col-9 align-self-center">
+                  <p class="lead">Javascript</p>
+                </div>
+              </div>
+
             </div>
           </div>
-        </div>
 
-        <div class="col-lg-4 mb-3  col-md-6 col-xs-12 d-flex justify-content-center ">
-          <div class="card">
-            <div class="wrapper">
-              <img class="card-img-top" src="src/personalportfolio.png" alt="Personal Website">
-              <div class="fade-in container-fluid">
-                <div class="row justify-content-center">
-                  <div class="col-0 align self-center">
-                    <div class='lead' id="made-with">Made with:</div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-3">
-                    <img src="./src/bootstrap.png" class="favicon">
-                  </div>
-                  <div class="col-9 align-self-center">
-                    <p class="lead">Bootstrap</p>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-3">
-                    <img src="./src/css.png" class="favicon">
-                  </div>
-                  <div class="col-9 align-self-center">
-                    <p class="lead">CSS</p>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-3">
-                    <img src="./src/html.png" class="favicon">
-                  </div>
-                  <div class="col-9 align-self-center">
-                    <p class="lead">HTML</p>
-                  </div>
-                </div>
-
-                <div class="row">
-                  <div class="col-3">
-                    <img src="./src/javascript.png" class="favicon">
-                  </div>
-                  <div class="col-9 align-self-center">
-                    <p class="lead">Javascript</p>
-                  </div>
-                </div>
-
-              </div>
-            </div>
-
-            <div class="card-body">
-              <h5 class="card-title">Personal Website</h5>
-              <p class="card-text">My personal website to display my information
-                and to showcase my coding projects.</p>
-            </div>
+          <div class="card-body">
+            <h5 class="card-title">Personal Website</h5>
+            <p class="card-text">My personal website to display my information
+              and to showcase my coding projects.</p>
           </div>
         </div>
+      </div>
 
-        <div class="col-lg-4 mb-3 col-md-6 col-xs-12 d-flex justify-content-center ">
-          <div class="card">
-            <div class="wrapper">
-              <img class="card-img-top" src="src/guessthesong.jpg" alt="Guess The Song">
-              <div class="fade-in container-fluid">
-                <div class="row justify-content-center">
-                  <div class="col-0 align self-center">
-                    <div class='lead' id="made-with">Made with:</div>
-                  </div>
+      <div class="col-lg-4 mb-3 col-md-6 col-xs-12 d-flex justify-content-center ">
+        <div class="card">
+          <div class="wrapper">
+            <img class="card-img-top" src="src/guessthesong.jpg" alt="Guess The Song">
+            <div class="fade-in container-fluid">
+              <div class="row justify-content-center">
+                <div class="col-0 align self-center">
+                  <div class='lead' id="made-with">Made with:</div>
                 </div>
-                <div class="row">
-                  <div class="col-3">
-                    <img src="./src/css.png" class="favicon">
-                  </div>
-                  <div class="col-9 align-self-center">
-                    <p class="lead">CSS</p>
-                  </div>
+              </div>
+              <div class="row">
+                <div class="col-3">
+                  <img src="./src/css.png" class="favicon">
                 </div>
-                <div class="row">
-                  <div class="col-3">
-                    <img src="./src/deezer.png" class="favicon">
-                  </div>
-                  <div class="col-9 align-self-center">
-                    <p class="lead">Deezer API</p>
-                  </div>
+                <div class="col-9 align-self-center">
+                  <p class="lead">CSS</p>
                 </div>
-                <div class="row">
-                  <div class="col-3">
-                    <img src="./src/javascript.png" class="favicon">
-                  </div>
-                  <div class="col-9 align-self-center">
-                    <p class="lead">Javascript</p>
-                  </div>
+              </div>
+              <div class="row">
+                <div class="col-3">
+                  <img src="./src/deezer.png" class="favicon">
                 </div>
-                <div class="row">
-                  <div class="col-3">
-                    <img src="./src/lastfm.png" class="favicon">
-                  </div>
-                  <div class="col-9 align-self-center">
-                    <p class="lead">Last.fm API</p>
-                  </div>
+                <div class="col-9 align-self-center">
+                  <p class="lead">Deezer API</p>
                 </div>
-                <div class="row">
-                  <div class="col-3">
-                    <img src="./src/react.png" class="favicon">
-                  </div>
-                  <div class="col-9 align-self-center">
-                    <p class="lead">React</p>
-                  </div>
+              </div>
+              <div class="row">
+                <div class="col-3">
+                  <img src="./src/javascript.png" class="favicon">
+                </div>
+                <div class="col-9 align-self-center">
+                  <p class="lead">Javascript</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-3">
+                  <img src="./src/lastfm.png" class="favicon">
+                </div>
+                <div class="col-9 align-self-center">
+                  <p class="lead">Last.fm API</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-3">
+                  <img src="./src/react.png" class="favicon">
+                </div>
+                <div class="col-9 align-self-center">
+                  <p class="lead">React</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="card-body">
+            <h5 class="card-title">Guess The Song</h5>
+            <p class="card-text">Guess the Song is a music recognition game where the user tries
+              to guess the track title from a 30s snipper of a song.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 mb-3 col-md-6  col-xs-12 d-flex justify-content-center">
+        <div class="card">
+          <div class="wrapper">
+            <img class="card-img-top" src="src/linux.png" alt="Linux ext2 File System">
+            <div class=" fade-in container-fluid">
+              <div class="row justify-content-center">
+                <div class="col-0 align self-center">
+                  <div class='lead' id="made-with">Made with:</div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-3">
+                  <img src="./src/c.png" class="favicon">
+                </div>
+                <div class="col-9 align-self-center">
+                  <p class="lead ">C</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-3">
+                  <img src="./src/fuse.png" class="favicon">
+                </div>
+                <div class="col-9 align-self-center">
+                  <p class="lead ">Filesystem in User Space (FUSE)</p>
                 </div>
 
               </div>
             </div>
+          </div>
 
-            <div class="card-body">
-              <h5 class="card-title">Guess The Song</h5>
-              <p class="card-text">Guess the Song is a music recognition game where the user tries
-                to guess the track title from a 30s snipper of a song.</p>
-            </div>
+          <div class="card-body">
+            <h5 class="card-title">ext2 File System</h5>
+            <p class="card-text">I implemented a copy of the ext2 file system
+              used for the Linux kernel. Using libfuse, I also implemented common unix-like operating system commands
+              such
+              as ls, cat, and stat.</p>
           </div>
         </div>
+      </div>
 
-        <div class="col-lg-4 mb-3 col-md-6  col-xs-12 d-flex justify-content-center">
-          <div class="card">
-            <div class="wrapper">
-              <img class="card-img-top" src="src/linux.png" alt="Linux ext2 File System">
-              <div class=" fade-in container-fluid">
-                <div class="row justify-content-center">
-                  <div class="col-0 align self-center">
-                    <div class='lead' id="made-with">Made with:</div>
-                  </div>
+      <div class="col-lg-4 mb-3  col-md-6 col-xs-12 d-flex justify-content-center">
+        <div class="card">
+          <div class="wrapper">
+            <img class="card-img-top" src="src/robot.jpg" alt="Line following robot">
+            <div class="fade-in container-fluid">
+              <div class="row justify-content-center">
+                <div class="col-0 align self-center">
+                  <div class='lead' id="made-with">Made with:</div>
                 </div>
-                <div class="row">
-                  <div class="col-3">
-                    <img src="./src/c.png" class="favicon">
-                  </div>
-                  <div class="col-9 align-self-center">
-                    <p class="lead ">C</p>
-                  </div>
+              </div>
+              <div class="row">
+                <div class="col-3">
+                  <img src="./src/python.png" class="favicon">
                 </div>
-                <div class="row">
-                  <div class="col-3">
-                    <img src="./src/fuse.png" class="favicon">
-                  </div>
-                  <div class="col-9 align-self-center">
-                    <p class="lead ">Filesystem in User Space (FUSE)</p>
-                  </div>
-
+                <div class="col-9 align-self-center">
+                  <p class="lead">Python</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-3">
+                  <img src="./src/pi.png" class="favicon">
+                </div>
+                <div class="col-9 align-self-center">
+                  <p class="lead">Raspberry Pi</p>
                 </div>
               </div>
             </div>
+          </div>
 
-            <div class="card-body">
-              <h5 class="card-title">ext2 File System</h5>
-              <p class="card-text">I implemented a copy of the ext2 file system
-                used for the Linux kernel. Using libfuse, I also implemented common unix-like operating system commands
-                such
-                as ls, cat, and stat.</p>
-            </div>
+          <div class="card-body">
+            <h5 class="card-title">J.A.R.V.I.S</h5>
+            <p class="card-text">J.A.R.V.I.S is a line-following robot I made
+              with my design team that has several add-on features such as a LED screen, camera, and an accompanying
+              iPad app that can control the robot remotely.</p>
           </div>
         </div>
+      </div>
 
-        <div class="col-lg-4 mb-3  col-md-6 col-xs-12 d-flex justify-content-center">
-          <div class="card">
-            <div class="wrapper">
-              <img class="card-img-top" src="src/robot.jpg" alt="Line following robot">
-              <div class="fade-in container-fluid">
-                <div class="row justify-content-center">
-                  <div class="col-0 align self-center">
-                    <div class='lead' id="made-with">Made with:</div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-3">
-                    <img src="./src/python.png" class="favicon">
-                  </div>
-                  <div class="col-9 align-self-center">
-                    <p class="lead">Python</p>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-3">
-                    <img src="./src/pi.png" class="favicon">
-                  </div>
-                  <div class="col-9 align-self-center">
-                    <p class="lead">Raspberry Pi</p>
-                  </div>
+      <div class="col-lg-4 mb-3 col-md-6  col-xs-12 d-flex justify-content-center">
+        <div class="card">
+          <div class="wrapper">
+            <img class="card-img-top" src="src/debugger.png" alt="x86-64 Debugger">
+            <div class="fade-in container-fluid">
+              <div class="row justify-content-center">
+                <div class="col-0 align self-center">
+                  <div class='lead' id="made-with">Made with:</div>
                 </div>
               </div>
-            </div>
-
-            <div class="card-body">
-              <h5 class="card-title">J.A.R.V.I.S</h5>
-              <p class="card-text">J.A.R.V.I.S is a line-following robot I made
-                with my design team that has several add-on features such as a LED screen, camera, and an accompanying
-                iPad app that can control the robot remotely.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 mb-3 col-md-6  col-xs-12 d-flex justify-content-center">
-          <div class="card">
-            <div class="wrapper">
-              <img class="card-img-top" src="src/debugger.png" alt="x86-64 Debugger">
-              <div class="fade-in container-fluid">
-                <div class="row justify-content-center">
-                  <div class="col-0 align self-center">
-                    <div class='lead' id="made-with">Made with:</div>
-                  </div>
+              <div class="row">
+                <div class="col-3">
+                  <img src="./src/assembly.png" class="favicon">
                 </div>
-                <div class="row">
-                  <div class="col-3">
-                    <img src="./src/assembly.png" class="favicon">
-                  </div>
-                  <div class="col-9 align-self-center">
-                    <p class="lead">x86 Assembly</p>
-                  </div>
+                <div class="col-9 align-self-center">
+                  <p class="lead">x86 Assembly</p>
                 </div>
-                <div class="row">
-                  <div class="col-3">
-                    <img src="./src/c.png" class="favicon">
-                  </div>
-                  <div class="col-9 align-self-center">
-                    <p class="lead">C</p>
-                  </div>
-                </div>
-
               </div>
-            </div>
+              <div class="row">
+                <div class="col-3">
+                  <img src="./src/c.png" class="favicon">
+                </div>
+                <div class="col-9 align-self-center">
+                  <p class="lead">C</p>
+                </div>
+              </div>
 
-            <div class="card-body">
-              <h5 class="card-title">x86-64 Debugger</h5>
-              <p class="card-title">I implented an x86-64 debugger that accept
-                and execute 10 debugger commands as well as an x86 disassembler that can convert binary files into
-                human-readable assembly code.</p>
             </div>
           </div>
 
+          <div class="card-body">
+            <h5 class="card-title">x86-64 Debugger</h5>
+            <p class="card-title">I implented an x86-64 debugger that accept
+              and execute 10 debugger commands as well as an x86 disassembler that can convert binary files into
+              human-readable assembly code.</p>
+          </div>
         </div>
-
 
       </div>
+
+
     </div>
   </div>
 
-  <a class="anchor" id="contact"></a>
-  <div class="cat-wrapper">
-    <div class="container-fluid categories">
+
+  <div class="container-fluid categories" id = "contactNav">
       <div class="row justify-content-center">
         <div class="col-0 align-self-center">
           <h1 style="margin-top: 15%; margin-bottom: 10%;">Contact Me</h1>
@@ -502,7 +495,6 @@
 
 
     </div>
-  </div>
 
 
 
